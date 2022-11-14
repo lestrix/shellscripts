@@ -1,5 +1,9 @@
-echo "=========="
+#!/bin/bash
+echo "======================"
+echo "hostname: " 
 hostname
+echo 'hostname -i:' 
 hostname -I
-
-echo "=========="
+echo 'uname -r:'  
+uname -r
+echo "======================"
